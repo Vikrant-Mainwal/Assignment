@@ -3,12 +3,13 @@ import './DisplayForm.css'
 
 const DisplayForm = () => {
   return (
-    <div className="diplay-form">
+    <div className="display-form">
         <div className="about-us">
             <h2>About Us</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio, nihil consequatur? Quos, odio cupiditate quia voluptates quo architecto repellendus harum debitis tenetur quasi quaerat animi aspernatur, nulla quis eveniet fugit.</p>
         </div>
-        <div>
+        <div className='form'>
+            <h2>Form</h2>
             <input type="text" placeholder='Your Name'/>
             <input type="email" placeholder='Your Email' />
             <input type="number" placeholder='Your Contact Number' />

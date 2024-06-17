@@ -19,18 +19,42 @@
 .navbar-menu li:hover{
     color: black;
 }
+.hamburger {
+    display: none;
+  }
+
+
 @media (max-width: 768px) {
     .navbar-menu {
       display: none;
     }
-    
+    .navbar-menu li{
+        padding: 5px 40px;
+        color: rgb(138, 138, 138);
+    }
+    .navbar-menu li:hover{
+        color: white;
+    }
     .hamburger {
       display: block;
       font-size: 30px;
       cursor: pointer;
     }
+
+  .navbar-menu.open {
+    display: flex; 
+    flex-direction: column;
+    position: absolute;
+    top: 60px; 
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    padding: 10px 0;
+  }
     
     .logo {
       margin: 0 auto; 
     }
   }
+
+ 
