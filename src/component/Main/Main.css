@@ -1,0 +1,29 @@
+
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f0f0f0; 
+  }
+  
+  .main-1, .main-2, .main-3 {
+    width: 200px; 
+    height: 200px; 
+    background-color: lightblue; 
+    border: 2px solid #ccc; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+  }
+  
+  @media (max-width:750px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+  }
